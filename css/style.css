@@ -1,0 +1,113 @@
+@font-face {
+    font-family: avenirnext;
+    src: url(../font/AvenirNext-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-family:avenirnext ;
+}
+footer{
+    text-align: center;
+    margin: 40px;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display:flex
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.aling-items-center{
+    align-items: center;
+}
+header{
+    padding: 30px;
+}
+nav ul, nav li{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    list-style-type: none;
+   
+}
+li{
+    display: inline;
+   
+}
+a{
+    margin-left: 15px;
+    color: rgb(150, 148, 148);
+    padding: 0;
+    text-decoration: none;
+}
+
+a:hover{
+border-bottom: solid 2px orangered;
+}
+.fondo{
+    background-image: url(../img/portada.jpg);
+    height: 500px;
+    background-size: cover;
+   
+}
+.letra{
+    color: white;
+}
+.col{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 16%;
+}
+.buscador{
+   width: 90%;
+   padding: 12px;
+   border-radius: 10px;
+   border: solid 0;
+   background-image: url(../img/icons-search.svg);
+   background-repeat: no-repeat;
+   background-position-x: 10px;
+   background-position-y: 7px;
+   background-size: 25px;
+   padding-left: 40px;
+}
+.raya{
+    border: solid 3px orangered;
+    width: 60px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+
+.col3{
+    display: inline;
+    width: 32%;
+    box-shadow: 0 0 14px grey;
+    position: relative;
+    padding-bottom: 30px;
+}
+.margen{
+    padding: 16px;
+    padding-bottom: 40px;
+}
+.container{
+    margin: 0px 50px;
+}
+.boton{
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    left: 50%;
+    padding: 8px 46px;
+    position: absolute;
+    transform: translateX(-50%);
+    font-size: 17px;
+    
+}
+.margen2{
+    margin-top: 20px;
+}
